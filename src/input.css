@@ -26,3 +26,6 @@
 .ct-subheadline-deco-lable {
   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }
+.ct-button {
+  @apply text-center left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-8 text-[12px] font-semibold cursor-pointer hover:bg-opacity-90
+}
